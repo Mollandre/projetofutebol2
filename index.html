@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de vitoria</title>
+    <link rel="stylesheet" href="placar.css">
+    <link rel="shortcut icon" href="soccer-ball.ico" type="image/x-icon">
+</head>
+
+<body>
+   
+   <header id="hora">
+       <h1>Contador de Vitorias</h1>
+   </header>
+    <section>
+        <div id="input">
+ Selecione o time Vitorioso:</br>
+    
+ <p id="label">
+     <input type="radio" name="cores" value="amarelo" id="Amarelo" o>
+     <label for="Amarelo">Amarelo</label>
+     <input type="radio" name="cores" value="2" id="Azul" checked onclick="corazul()">
+     <label for="Azul">Azul</label>
+     <input type="radio" name="cores" value="3" id="Preto" o>
+     <label for="Preto">Preto</label>
+     <input type="radio" name="cores" value="4" id="Vermelho">
+     <label for="vermelho">Vermelho</label>
+     <input type="radio" name="cores" value="5" id="Empate">
+     <label for="Empate">Empate</label>
+     
+ </p>
+
+ <p>
+     <input type="button" value="Confirmar" class="buttom" onclick="Confirmar()"> 
+     <input type="button" value="Resultado" class="buttom" onclick="resultado()"  > 
+     <input type="button" value="Finalizar" class="buttom" onclick="finalizar()">
+     <input type="button" value="Restart" class="buttom" onclick="Restart()">
+     <input type="button" value="Apagar Seleção" class="buttom" onclick="Aresultado()">
+      
+ </p>
+
+        </div>
+        <div id="pi">
+
+    <p>
+        <select name="placar" id="placar" size="8">
+            <option value="azul"></option>
+        </select>
+        <img id="img" src="trofeu.jpg" alt="imagem/jpg">
+    </p>
+
+
+
+        </div>
+        <div id="res">
+<p>Resultado</p>
+        </div>
+
+
+    </section>
+
+    <script src="javas.js"></script>
+</body>
+</html>

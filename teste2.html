@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <button onclick="incrementClick()">Click Me</button>
+        <button onclick="resetCounter()">Reset</button>
+        <select name="placar" id="placar" size="8" style="width: 300px;"></select>
+    </div>
+<script>
+
+
+var amarelo = 0
+var cores = document.querySelector('[name=cores]:checked').value
+function incrementClick() {
+    (++amarelo);
+   
+}
+function resetCounter() {
+    alert(`${amarelo}`)
+}
+function displaylista(val){
+    document.getElementById("placar").text = val
+}
+
+</script>
+    
+</body>
+</html>window.location.reload()

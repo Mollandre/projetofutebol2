@@ -1,0 +1,64 @@
+body{
+    background-color: royalblue;
+}
+section{
+   background-color: white;
+   height: 300px;
+   border-radius: 20px;
+   padding: 30px 10px 0px 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   width: 313px;
+   margin: auto;
+  
+}
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
+    text-align: center;
+}
+#placar{
+    height: 100px;
+    width: 170px;
+    
+   
+    
+    
+}
+input.buttom{
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.712);
+font-size: 0.5em;
+
+
+}
+p#label{
+    font-size: 1.0em;
+    
+}
+img{
+    height: 120px;
+    padding-left: 30px;
+   
+}
+div#pi{
+    margin-top: -10px;
+    columns: 2;
+}
+div#res{
+margin-top: -110px;
+
+}
+#res {
+    padding-top: 10px;
+    font-size: 0.8em;
+}
+
+
+
