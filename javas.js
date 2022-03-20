@@ -48,40 +48,52 @@ else{
   
   
   function finalizar(){
+    alert('!!APERTE NO BOTÃO RESTART PARA INICIAR UMA NOVA CONTAGEM!!')
+    var res1 = document.getElementById("res1")
+    res1.style.backgroundColor = '#F2DB3F';
+    res1.style.boxShadow = "1px 1px 1px rgba(0, 0, 0, 0.404)";
+  var res2 = document.getElementById("res2")
+  res2.style.backgroundColor = '#2347C8';
+    res2.style.boxShadow = "1px 1px 1px rgba(0, 0, 0, 0.404)";
+    var res3 = document.getElementById("res3")
+    res3.style.backgroundColor = 'black';
+
+    res3.style.boxShadow = "1px 1px 1px rgba(0, 0, 0, 0.404)";
+    var res4 = document.getElementById('res4')
+    res4.style.backgroundColor = '#DB532E';
+    res4.style.boxShadow = "1px 1px 1px rgba(0, 0, 0, 0.404)";
     
-    var res = document.getElementById("res")
-    
+    res1.innerHTML = ''
+    res2.innerHTML =''
+    res3.innerHTML = ''
+    res4.innerHTML =''
     if (amarelo>vermelho && amarelo > preto && amarelo > azul){
 				
-     res.innerHTML = 'Amarelo Venceu'
+     res1.innerHTML = 'Amarelo Venceu'
       }
     
-    
-  
-  
-  
-    
-      if(vermelho>amarelo && vermelho > preto && vermelho > azul){
-        res.innerHTML = 'Vermelho Venceu'
+    if(vermelho>amarelo && vermelho > preto && vermelho > azul){
+        res4.innerHTML = 'Vermelho Venceu'
          
-         }if(preto>amarelo && preto > vermelho && preto > azul){
-        res.innerHTML = 'Preto Venceu'
+         }
+         if(preto>amarelo && preto > vermelho && preto > azul){
+        res3.innerHTML = 'Preto Venceu'
          }
           if(azul>amarelo && azul > vermelho && azul > preto){
-        res.innerHTML = 'Azul Venceu'
+        res2.innerHTML = 'Azul Venceu'
       }
           
           
           if (amarelo == vermelho ){
            
-           res.innerHTML = 'Amarelo e Vermelho empatou'
+           res1.innerHTML = 'Amarelo e Vermelho empatou'
            
            }
            
            
            if (amarelo == preto   ){
              
-             res.innerHTML = 'Amarelo e Preto empatou'
+             res1.innerHTML = 'Amarelo e Preto empatou'
              
            }
            
@@ -89,29 +101,29 @@ else{
              if (vermelho == preto   ){
              
                
-               res.innerHTML = 'Vermelho e Preto empatou'
+               res4.innerHTML = 'Vermelho e Preto empatou'
                
                }
                
           if (azul == preto   ){
              
                
-               res.innerHTML = 'Azul e Preto empatou'
+               res3.innerHTML = 'Azul e Preto empatou'
                
                }
                if (azul == vermelho   ){
              
                
-               res.innerHTML = 'Azul e Vermelho empatou'
+               res2.innerHTML = 'Azul e Vermelho empatou'
                
                }
                if (azul == amarelo   ){
              
                
-               res.innerHTML = 'Azul e Amarelo empatou'
+               res2.innerHTML = 'Azul e Amarelo empatou'
                
                }
-               
+              
                
   }
   
@@ -157,9 +169,29 @@ else{
     }
   
 function resultado(){
-  var res = document.getElementById('res')
+  var res1 = document.getElementById("res1")
+  res1.style.backgroundColor = '#F2DB3F';
+  res1.style.boxShadow = "1px 1px 1px rgba(0, 0, 0, 0.404)";
+var res2 = document.getElementById("res2")
+res2.style.backgroundColor = '#2347C8';
+  res2.style.boxShadow = "1px 1px 1px rgba(0, 0, 0, 0.404)";
+  var res3 = document.getElementById("res3")
+  res3.style.backgroundColor = 'black';
+  res3.style.boxShadow = "1px 1px 1px rgba(0, 0, 0, 0.404)";
+  var res4 = document.getElementById('res4')
+  res4.style.backgroundColor = '#DB532E';
+  res4.style.boxShadow = "1px 1px 1px rgba(0, 0, 0, 0.404)";
 
-  res.innerHTML = `Time amarelo tem ${amarelo} vitorias, Time azul tem ${azul} vitorias, Time preto ${preto} vitorias, Time vermelho ${vermelho} vitorias.`
+
+
+  res1.innerHTML = `Time Amarelo tem ${amarelo} vitorias`
+  
+  res2.innerHTML = `Time Azul tem ${azul} vitorias`
+  res3.innerHTML = `Time Preto tem ${preto} vitorias`
+  res4.innerHTML = `Time Vermelho tem ${vermelho} vitorias`
+
+
+
 }  
 function Restart(){
   window.location.reload()

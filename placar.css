@@ -3,7 +3,7 @@ body{
 }
 section{
    background-color: white;
-   height: 300px;
+   height: 420px;
    border-radius: 20px;
    padding: 30px 10px 0px 10px;
    font-family: Arial, Helvetica, sans-serif;
@@ -55,10 +55,57 @@ div#res{
 margin-top: -110px;
 
 }
-#res {
-    padding-top: 10px;
-    font-size: 0.8em;
+#res1 {
+    
+    padding-top: 5px;
+    font-size: 1.0em;
+    
+    border-radius: 10px;
+    
+    padding-left: 15px;
+    padding-bottom: 5px;
+    
+    color: white;
 }
-
-
+#res2 {
+    padding-top: 5px;
+    
+    border-radius: 10px;
+    
+    padding-left: 15px;
+    padding-bottom: 5px;
+    margin-top: -14px;
+    color: white;
+}
+#res3 {
+    padding-top: 5px;
+    font-size: 1.0em;
+    
+    border-radius: 10px;
+    
+    padding-left: 15px;
+    padding-bottom: 5px;
+    margin-top: -14px;
+    color: white;
+}
+#res4 {
+    padding-top: 5px;
+    font-size: 1.0em;
+    
+    border-radius: 10px;
+    
+    padding-left: 15px;
+    padding-bottom: 5px;
+    margin-top: -14px;
+    color: white;
+}
+span#amarelo{
+    color: rgb(167, 167, 29);
+}
+span#azul{
+    color: blue;
+}
+span#vermelho{
+    color: red;
+}
 
