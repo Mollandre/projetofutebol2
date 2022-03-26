@@ -20,7 +20,7 @@ function Confirmar(){
   if(cores[0].checked){
     (++amarelo)
     lista.text = `amarelo ${amarelo} vitorias`
-    img.src = "amarelo.png"
+    img.src = "borussia.png"
   }
 else if (cores[1].checked){
   (++azul)
@@ -62,7 +62,8 @@ else{
     var res4 = document.getElementById('res4')
     res4.style.backgroundColor = '#DB532E';
     res4.style.boxShadow = "1px 1px 1px rgba(0, 0, 0, 0.404)";
-    
+    var img = document.getElementById('img')
+
     res1.innerHTML = ''
     res2.innerHTML =''
     res3.innerHTML = ''
@@ -70,17 +71,21 @@ else{
     if (amarelo>vermelho && amarelo > preto && amarelo > azul){
 				
      res1.innerHTML = 'Amarelo Venceu'
+     img.src = "borussiacam.png"
+     
       }
     
     if(vermelho>amarelo && vermelho > preto && vermelho > azul){
         res4.innerHTML = 'Vermelho Venceu'
-         
+         img.src = "milancam.png"
          }
          if(preto>amarelo && preto > vermelho && preto > azul){
         res3.innerHTML = 'Preto Venceu'
+        img.src = "preto cam.png"
          }
           if(azul>amarelo && azul > vermelho && azul > preto){
         res2.innerHTML = 'Azul Venceu'
+        img.src = "camazul.png"
       }
           
           
