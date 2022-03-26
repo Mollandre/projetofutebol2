@@ -109,3 +109,7 @@ span#vermelho{
     color: red;
 }
 
+.radio{
+    font-size: 1.0em;
+    margin: -3px;
+}
