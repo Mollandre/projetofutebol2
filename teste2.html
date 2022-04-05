@@ -32,3 +32,41 @@ function displaylista(val){
     
 </body>
 </html>window.location.reload()
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <select id="language">
+    <option value="pt" selected>Português</option>
+    <option value="en">English</option>
+    <option value="es">Español</option>
+  </select>
+  
+  <script>
+   var select = document.getElementById('language');
+	var text = select.options[select.selectedIndex].text;
+	
+  function excluirOpcaoSelecionada(){
+    // vamos obter o elemento select
+    var elem = document.getElementById("cidades");    
+
+    // vamos obter o índice da opção selecionada
+    var indiceSelecionada = elem.options.selectedIndex;
+
+    // vamos excluir a opção selecionada
+    if(elem.options.remove){ 
+      // Internet Explorer, Safari, Opera, Google Chrome 
+      elem.options.remove(indiceSelecionada);
+    }
+    else{ // Firefox
+      elem.remove(indiceSelecionada); 
+    }
+  }  
+  </script>
+</body>
+</html>

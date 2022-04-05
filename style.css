@@ -1,0 +1,93 @@
+header{
+  background-image: linear-gradient( #003eff, #00beff,#4100ff);
+   margin: -10px -10px 50px -10px;
+   padding: 30px;
+   background-size: cover;
+   color: white;
+   font-size: 1.0em;
+   font-family: Arial, Helvetica, sans-serif;
+   text-shadow : 2px 2px 2px black;
+   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.575);
+   text-align: center;
+}
+
+#botao1{
+    background-color: blue;
+    color: white;
+width: 0px;
+    padding: 70px 96px 70px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 3px 3px 3px black;
+    text-indent: 0px;
+    line-height: 0px;
+    margin-top: 3px;
+    margin-left: -5px;
+    
+}
+
+h2{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    box-shadow: 2px 2px 2px black;
+    
+    border-radius: 10px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 3px black;
+}
+
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 10px;
+    line-height: 2em;
+    padding-top: 10px;
+}
+.p2{
+    background-color: rgba(0, 0, 0, 0.349);
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 64px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom ;
+    color: white;
+    padding-top: 40px;
+    
+}
+#img1{
+    background-image: url(lendas.jpg);
+    height: 200px;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: -18px;
+    margin-bottom: -20px;
+}
+#img2{
+    background-image: url(lendas\ 2.jpg);
+    height: 200px;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: -18px;
+    margin-bottom: -20px;
+}
+ol{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    text-align: justify;
+    line-height: 1.3em;
+}
+footer{
+    background-color: blueviolet;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.788);
+    border-radius: 10px 0px 10px 0px;
+}
+footer p{
+    text-align: center;
+    font-style: italic;
+    
+}
+

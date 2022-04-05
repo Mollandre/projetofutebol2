@@ -4,35 +4,64 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Regras do Site</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <select id="language">
-    <option value="pt" selected>Português</option>
-    <option value="en">English</option>
-    <option value="es">Español</option>
-  </select>
+  <header>
+<h1>Regras do Site</h1>
+  </header>
+   
+     <div >
+      <div >
+        <h2>Confimar</h2>
+      </div>
+        <p>Verificar se a bolinha azul está no time correto depois aperte o botão confirmar para adiciona a vitória do time que ganhou a partida.</p>
+     
+       
+     </div>
+     <div >
+     
+       
+        <div>
+       <h2>Resultado</h2>
+       </div>
+       <div id="img1">
+         <p class="p2">Para saber o resultado das vitorias a qualquer momento aperte o botão resultado. O resultado aparece abaixo</p>
+       </div>
+     </div>
+     <div>
+       <h2>Finalizar</h2>
+       
+         <p>Para finalizar a sessão e só apertar o botão finalizar e em seguida ver o time que ganhou abaixo. Logo depois apertar o botão restart para começar uma nova sessão.</p>
+       
+     </div>
+     <div>
+      <h2>Restart</h2>
+      </div>
+      <div id="img2">
+        <p class="p2">Assim que você apertar o botão finalizar aperte o botão restart para iniciar uma nova contagem cancelando a anterior.</p>
+      </div>
+    </div>
+    <div>
+      <h2>Apagar Seleção</h2>
+      
+        <p>O botão <b>apagar seleção</b> serve para apagar um resultado que você tenha colocado errado. Para que você possa apagar corretamente:
+        <ol>
+          <li>Precisa verificar se a bolinha azul esta no time que você queira apagar.</li>
+          <li>Tem que selecionar o resultado que você quer apagar apertando na setinha para baixo no quadrado em branco aonde estão armazenado os resultados.
+          </li>
+          <li>Caso você tenha apagado e a bolinha azul não esteja em cima do time que você queria apagar favor adicionar o time que você apagou errado novamente, para que a contagem não fique errada.</li>
+
+        </ol></p>
+      
+    </div>
   
-  <script>
-   var select = document.getElementById('language');
-	var text = select.options[select.selectedIndex].text;
-	
-  function excluirOpcaoSelecionada(){
-    // vamos obter o elemento select
-    var elem = document.getElementById("cidades");    
 
-    // vamos obter o índice da opção selecionada
-    var indiceSelecionada = elem.options.selectedIndex;
 
-    // vamos excluir a opção selecionada
-    if(elem.options.remove){ 
-      // Internet Explorer, Safari, Opera, Google Chrome 
-      elem.options.remove(indiceSelecionada);
-    }
-    else{ // Firefox
-      elem.remove(indiceSelecionada); 
-    }
-  }  
-  </script>
+  
+  <footer>
+<p> <a href="index.html"><b>Voltar</b></a></p>
+  </footer>
 </body>
 </html>

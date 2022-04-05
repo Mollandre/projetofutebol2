@@ -7,7 +7,7 @@ section{
    border-radius: 20px;
    padding: 30px 10px 0px 10px;
    font-family: Arial, Helvetica, sans-serif;
-   width: 313px;
+   width: 290px;
    margin: auto;
   
 }
@@ -112,4 +112,12 @@ span#vermelho{
 .radio{
     font-size: 1.0em;
     margin: -3px;
+}
+#footer{
+    background-color: white;
+    text-align: center;
+    width: 313px;
+    margin: auto;
+    border-radius: 20px;
+    font-style: italic;
 }
