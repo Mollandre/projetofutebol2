@@ -121,3 +121,10 @@ span#vermelho{
     border-radius: 20px;
     font-style: italic;
 }
+a#link{
+    color: rgb(1, 1, 138);
+    text-decoration: dashed;
+}
+a#link:hover{
+    color: blue;
+}
