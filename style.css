@@ -10,6 +10,9 @@ header{
    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.575);
    text-align: center;
 }
+body{
+    width: 90vw;
+}
 
 #botao1{
     background-color: blue;
