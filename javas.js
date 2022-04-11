@@ -8,6 +8,7 @@ var date = new Date()
 var horas = date.getHours
 
 
+    
 
 function Confirmar(){
    
@@ -64,15 +65,15 @@ else{
     res4.style.boxShadow = "1px 1px 1px rgba(0, 0, 0, 0.404)";
     var img = document.getElementById('img')
 
-    res1.innerHTML = ''
-    res2.innerHTML =''
-    res3.innerHTML = ''
-    res4.innerHTML =''
+   
     if (amarelo>vermelho && amarelo > preto && amarelo > azul){
 				
      res1.innerHTML = 'Amarelo Venceu'
      img.src = "borussiacam.png"
-     
+     res1.innerHTML = ''
+     res2.innerHTML =''
+     res3.innerHTML = ''
+     res4.innerHTML =''
       }
     
     if(vermelho>amarelo && vermelho > preto && vermelho > azul){

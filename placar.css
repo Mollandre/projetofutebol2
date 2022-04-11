@@ -3,8 +3,8 @@ body{
 }
 section{
    background-color: white;
-   height: 420px;
-   border-radius: 20px;
+   height: 250px;
+   border-radius: 20px 20px 0px 0px;
    padding: 30px 10px 0px 10px;
    font-family: Arial, Helvetica, sans-serif;
    width: 320px;
@@ -51,9 +51,10 @@ img{
 div#pi{
     margin-top: -10px;
     columns: 2;
+    
 }
 div#res{
-margin-top: -110px;
+margin-top: -20px;
 
 }
 #res1 {
@@ -128,4 +129,9 @@ a#link{
 }
 a#link:hover{
     color: blue;
+}
+#sec2{
+border-radius: 0px 0px 20px 20px;
+height: 150px;
+margin-top: -20px;
 }
