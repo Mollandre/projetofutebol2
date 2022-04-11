@@ -70,10 +70,7 @@ else{
 				
      res1.innerHTML = 'Amarelo Venceu'
      img.src = "borussiacam.png"
-     res1.innerHTML = ''
-     res2.innerHTML =''
-     res3.innerHTML = ''
-     res4.innerHTML =''
+     
       }
     
     if(vermelho>amarelo && vermelho > preto && vermelho > azul){
